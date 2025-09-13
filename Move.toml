@@ -1,0 +1,16 @@
+[package]
+name = "Simple-Escrow-Smart-Contract"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule="0x1ac8ad985f86a35bc83e2d73f695aba18ad72846384fda6eb567e5f7a8471b76"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
